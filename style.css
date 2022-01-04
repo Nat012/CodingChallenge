@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+   }
+  
+.container{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.container img{
+    display: block;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+.titolo{
+    color: #46ff00;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.green-band{
+    text-align: center;
+    height: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #46ff00;
+    padding-top: 12.5px;
+}
+
+.info{
+    padding: 0px;
+    margin-left: 70px;
+    color: white;
+}
+.full-charge{
+    text-align: center;
+    height: 20px;
+    margin-left: 70px;
+    margin-right: 350px;
+    background-color: #46ff00;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.med-charge{
+    height: 20px;
+    margin-left: 70px;
+    margin-right: 550px;
+    background-color:  #ffcc00;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.low-charge{
+    height: 20px;
+    margin-left: 70px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+    background-color:  #e60000;
+    padding-top: 10px;
+    border-radius: 5px;
+}
